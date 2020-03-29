@@ -30,12 +30,11 @@ class Node:
         else: 
             turn="Prot"
         for item in self.childs:
-            print(item.sum, item.endpoint)
             if item.sum > item.endpoint:
                 if turn=="Prot":
-                    item.result = -1
-                else:
                     item.result = 1
+                else:
+                    item.result = -1
                 G.node(item.id,turn +"\n"+str(item.sum)+ "\nWynik:" + str(item.result))
                 G.edge(self.id, item.id, label=str(item.parentEdgeValue))
             elif item.sum == item.endpoint:
@@ -43,7 +42,6 @@ class Node:
                 G.node(item.id,turn +"\n"+str(item.sum)+ "\nWynik:" + str(item.result))
                 G.edge(self.id, item.id, label=str(item.parentEdgeValue))
             else:
-                print(item.result)
                 G.node(item.id,turn +"\n"+str(item.sum))
                 G.edge(self.id, item.id, label=str(item.parentEdgeValue))
                 item.showTree_subfunc(G, turn)
@@ -63,24 +61,26 @@ class Node:
             turn="Prot"
         for item in self.childs:
             color="black"
-            if turn == "Prot" and item.parentEdgeValue == max(self.move):
+            if turn != "Prot" and item.parentEdgeValue == max(self.move) and (item.sum < self.endpoint):
                 color="red"
-            elif turn == "Ant" and item.parentEdgeValue == min(self.move):
-                color="red"
-            print(item.sum, item.endpoint)
+            elif turn != "Ant" and item.parentEdgeValue == min(self.move):
+                color="green"
             if item.sum > item.endpoint:
                 if turn=="Prot":
-                    item.result = -1
-                else:
                     item.result = 1
+                else:
+                    item.result = -1
                 G.node(item.id,turn +"\n"+str(item.sum)+ "\nWynik:" + str(item.result))
                 G.edge(self.id, item.id, label=str(item.parentEdgeValue), color=color)
             elif item.sum == item.endpoint:
                 item.result = 0
+                color="red"
+                for i in self.childs:
+                    if i.sum < i.endpoint:
+                        color="black"
                 G.node(item.id,turn +"\n"+str(item.sum)+ "\nWynik:" + str(item.result))
                 G.edge(self.id, item.id, label=str(item.parentEdgeValue), color=color)
             else:
-                print(item.result)
                 G.node(item.id,turn +"\n"+str(item.sum))
                 G.edge(self.id, item.id, label=str(item.parentEdgeValue), color=color)
                 item.minmax_subfunc(G, turn)
@@ -90,3 +90,4 @@ class Node:
 
 root = Node()
 root.minmax()
+root.showTree()
