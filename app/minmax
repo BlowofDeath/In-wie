@@ -1,0 +1,1006 @@
+digraph G {
+	0 [label="Prot
+0"]
+	00 [label="Ant
+4"]
+	0 -> 00 [label=4 color=red]
+	000 [label="Prot
+8"]
+	00 -> 000 [label=4 color=black]
+	0000 [label="Ant
+12"]
+	000 -> 0000 [label=4 color=red]
+	00000 [label="Prot
+16"]
+	0000 -> 00000 [label=4 color=black]
+	000000 [label="Ant
+20"]
+	00000 -> 000000 [label=4 color=red]
+	0000000 [label="Prot
+24
+Wynik:-1"]
+	000000 -> 0000000 [label=4 color=black]
+	0000001 [label="Prot
+25
+Wynik:-1"]
+	000000 -> 0000001 [label=5 color=black]
+	0000002 [label="Prot
+26
+Wynik:-1"]
+	000000 -> 0000002 [label=6 color=red]
+	000001 [label="Ant
+21
+Wynik:0"]
+	00000 -> 000001 [label=5 color=black]
+	000002 [label="Ant
+22
+Wynik:1"]
+	00000 -> 000002 [label=6 color=black]
+	00001 [label="Prot
+17"]
+	0000 -> 00001 [label=5 color=black]
+	000010 [label="Ant
+21
+Wynik:0"]
+	00001 -> 000010 [label=4 color=red]
+	000011 [label="Ant
+22
+Wynik:1"]
+	00001 -> 000011 [label=5 color=black]
+	000012 [label="Ant
+23
+Wynik:1"]
+	00001 -> 000012 [label=6 color=black]
+	00002 [label="Prot
+18"]
+	0000 -> 00002 [label=6 color=red]
+	000020 [label="Ant
+22
+Wynik:1"]
+	00002 -> 000020 [label=4 color=red]
+	000021 [label="Ant
+23
+Wynik:1"]
+	00002 -> 000021 [label=5 color=black]
+	000022 [label="Ant
+24
+Wynik:1"]
+	00002 -> 000022 [label=6 color=black]
+	0001 [label="Ant
+13"]
+	000 -> 0001 [label=5 color=black]
+	00010 [label="Prot
+17"]
+	0001 -> 00010 [label=4 color=black]
+	000100 [label="Ant
+21
+Wynik:0"]
+	00010 -> 000100 [label=4 color=red]
+	000101 [label="Ant
+22
+Wynik:1"]
+	00010 -> 000101 [label=5 color=black]
+	000102 [label="Ant
+23
+Wynik:1"]
+	00010 -> 000102 [label=6 color=black]
+	00011 [label="Prot
+18"]
+	0001 -> 00011 [label=5 color=black]
+	000110 [label="Ant
+22
+Wynik:1"]
+	00011 -> 000110 [label=4 color=red]
+	000111 [label="Ant
+23
+Wynik:1"]
+	00011 -> 000111 [label=5 color=black]
+	000112 [label="Ant
+24
+Wynik:1"]
+	00011 -> 000112 [label=6 color=black]
+	00012 [label="Prot
+19"]
+	0001 -> 00012 [label=6 color=red]
+	000120 [label="Ant
+23
+Wynik:1"]
+	00012 -> 000120 [label=4 color=red]
+	000121 [label="Ant
+24
+Wynik:1"]
+	00012 -> 000121 [label=5 color=black]
+	000122 [label="Ant
+25
+Wynik:1"]
+	00012 -> 000122 [label=6 color=black]
+	0002 [label="Ant
+14"]
+	000 -> 0002 [label=6 color=black]
+	00020 [label="Prot
+18"]
+	0002 -> 00020 [label=4 color=black]
+	000200 [label="Ant
+22
+Wynik:1"]
+	00020 -> 000200 [label=4 color=red]
+	000201 [label="Ant
+23
+Wynik:1"]
+	00020 -> 000201 [label=5 color=black]
+	000202 [label="Ant
+24
+Wynik:1"]
+	00020 -> 000202 [label=6 color=black]
+	00021 [label="Prot
+19"]
+	0002 -> 00021 [label=5 color=black]
+	000210 [label="Ant
+23
+Wynik:1"]
+	00021 -> 000210 [label=4 color=red]
+	000211 [label="Ant
+24
+Wynik:1"]
+	00021 -> 000211 [label=5 color=black]
+	000212 [label="Ant
+25
+Wynik:1"]
+	00021 -> 000212 [label=6 color=black]
+	00022 [label="Prot
+20"]
+	0002 -> 00022 [label=6 color=red]
+	000220 [label="Ant
+24
+Wynik:1"]
+	00022 -> 000220 [label=4 color=red]
+	000221 [label="Ant
+25
+Wynik:1"]
+	00022 -> 000221 [label=5 color=black]
+	000222 [label="Ant
+26
+Wynik:1"]
+	00022 -> 000222 [label=6 color=black]
+	001 [label="Prot
+9"]
+	00 -> 001 [label=5 color=black]
+	0010 [label="Ant
+13"]
+	001 -> 0010 [label=4 color=red]
+	00100 [label="Prot
+17"]
+	0010 -> 00100 [label=4 color=black]
+	001000 [label="Ant
+21
+Wynik:0"]
+	00100 -> 001000 [label=4 color=red]
+	001001 [label="Ant
+22
+Wynik:1"]
+	00100 -> 001001 [label=5 color=black]
+	001002 [label="Ant
+23
+Wynik:1"]
+	00100 -> 001002 [label=6 color=black]
+	00101 [label="Prot
+18"]
+	0010 -> 00101 [label=5 color=black]
+	001010 [label="Ant
+22
+Wynik:1"]
+	00101 -> 001010 [label=4 color=red]
+	001011 [label="Ant
+23
+Wynik:1"]
+	00101 -> 001011 [label=5 color=black]
+	001012 [label="Ant
+24
+Wynik:1"]
+	00101 -> 001012 [label=6 color=black]
+	00102 [label="Prot
+19"]
+	0010 -> 00102 [label=6 color=red]
+	001020 [label="Ant
+23
+Wynik:1"]
+	00102 -> 001020 [label=4 color=red]
+	001021 [label="Ant
+24
+Wynik:1"]
+	00102 -> 001021 [label=5 color=black]
+	001022 [label="Ant
+25
+Wynik:1"]
+	00102 -> 001022 [label=6 color=black]
+	0011 [label="Ant
+14"]
+	001 -> 0011 [label=5 color=black]
+	00110 [label="Prot
+18"]
+	0011 -> 00110 [label=4 color=black]
+	001100 [label="Ant
+22
+Wynik:1"]
+	00110 -> 001100 [label=4 color=red]
+	001101 [label="Ant
+23
+Wynik:1"]
+	00110 -> 001101 [label=5 color=black]
+	001102 [label="Ant
+24
+Wynik:1"]
+	00110 -> 001102 [label=6 color=black]
+	00111 [label="Prot
+19"]
+	0011 -> 00111 [label=5 color=black]
+	001110 [label="Ant
+23
+Wynik:1"]
+	00111 -> 001110 [label=4 color=red]
+	001111 [label="Ant
+24
+Wynik:1"]
+	00111 -> 001111 [label=5 color=black]
+	001112 [label="Ant
+25
+Wynik:1"]
+	00111 -> 001112 [label=6 color=black]
+	00112 [label="Prot
+20"]
+	0011 -> 00112 [label=6 color=red]
+	001120 [label="Ant
+24
+Wynik:1"]
+	00112 -> 001120 [label=4 color=red]
+	001121 [label="Ant
+25
+Wynik:1"]
+	00112 -> 001121 [label=5 color=black]
+	001122 [label="Ant
+26
+Wynik:1"]
+	00112 -> 001122 [label=6 color=black]
+	0012 [label="Ant
+15"]
+	001 -> 0012 [label=6 color=black]
+	00120 [label="Prot
+19"]
+	0012 -> 00120 [label=4 color=black]
+	001200 [label="Ant
+23
+Wynik:1"]
+	00120 -> 001200 [label=4 color=red]
+	001201 [label="Ant
+24
+Wynik:1"]
+	00120 -> 001201 [label=5 color=black]
+	001202 [label="Ant
+25
+Wynik:1"]
+	00120 -> 001202 [label=6 color=black]
+	00121 [label="Prot
+20"]
+	0012 -> 00121 [label=5 color=black]
+	001210 [label="Ant
+24
+Wynik:1"]
+	00121 -> 001210 [label=4 color=red]
+	001211 [label="Ant
+25
+Wynik:1"]
+	00121 -> 001211 [label=5 color=black]
+	001212 [label="Ant
+26
+Wynik:1"]
+	00121 -> 001212 [label=6 color=black]
+	00122 [label="Prot
+21
+Wynik:0"]
+	0012 -> 00122 [label=6 color=red]
+	002 [label="Prot
+10"]
+	00 -> 002 [label=6 color=red]
+	0020 [label="Ant
+14"]
+	002 -> 0020 [label=4 color=red]
+	00200 [label="Prot
+18"]
+	0020 -> 00200 [label=4 color=black]
+	002000 [label="Ant
+22
+Wynik:1"]
+	00200 -> 002000 [label=4 color=red]
+	002001 [label="Ant
+23
+Wynik:1"]
+	00200 -> 002001 [label=5 color=black]
+	002002 [label="Ant
+24
+Wynik:1"]
+	00200 -> 002002 [label=6 color=black]
+	00201 [label="Prot
+19"]
+	0020 -> 00201 [label=5 color=black]
+	002010 [label="Ant
+23
+Wynik:1"]
+	00201 -> 002010 [label=4 color=red]
+	002011 [label="Ant
+24
+Wynik:1"]
+	00201 -> 002011 [label=5 color=black]
+	002012 [label="Ant
+25
+Wynik:1"]
+	00201 -> 002012 [label=6 color=black]
+	00202 [label="Prot
+20"]
+	0020 -> 00202 [label=6 color=red]
+	002020 [label="Ant
+24
+Wynik:1"]
+	00202 -> 002020 [label=4 color=red]
+	002021 [label="Ant
+25
+Wynik:1"]
+	00202 -> 002021 [label=5 color=black]
+	002022 [label="Ant
+26
+Wynik:1"]
+	00202 -> 002022 [label=6 color=black]
+	0021 [label="Ant
+15"]
+	002 -> 0021 [label=5 color=black]
+	00210 [label="Prot
+19"]
+	0021 -> 00210 [label=4 color=black]
+	002100 [label="Ant
+23
+Wynik:1"]
+	00210 -> 002100 [label=4 color=red]
+	002101 [label="Ant
+24
+Wynik:1"]
+	00210 -> 002101 [label=5 color=black]
+	002102 [label="Ant
+25
+Wynik:1"]
+	00210 -> 002102 [label=6 color=black]
+	00211 [label="Prot
+20"]
+	0021 -> 00211 [label=5 color=black]
+	002110 [label="Ant
+24
+Wynik:1"]
+	00211 -> 002110 [label=4 color=red]
+	002111 [label="Ant
+25
+Wynik:1"]
+	00211 -> 002111 [label=5 color=black]
+	002112 [label="Ant
+26
+Wynik:1"]
+	00211 -> 002112 [label=6 color=black]
+	00212 [label="Prot
+21
+Wynik:0"]
+	0021 -> 00212 [label=6 color=red]
+	0022 [label="Ant
+16"]
+	002 -> 0022 [label=6 color=black]
+	00220 [label="Prot
+20"]
+	0022 -> 00220 [label=4 color=black]
+	002200 [label="Ant
+24
+Wynik:1"]
+	00220 -> 002200 [label=4 color=red]
+	002201 [label="Ant
+25
+Wynik:1"]
+	00220 -> 002201 [label=5 color=black]
+	002202 [label="Ant
+26
+Wynik:1"]
+	00220 -> 002202 [label=6 color=black]
+	00221 [label="Prot
+21
+Wynik:0"]
+	0022 -> 00221 [label=5 color=black]
+	00222 [label="Prot
+22
+Wynik:-1"]
+	0022 -> 00222 [label=6 color=red]
+	01 [label="Ant
+5"]
+	0 -> 01 [label=5 color=black]
+	010 [label="Prot
+9"]
+	01 -> 010 [label=4 color=black]
+	0100 [label="Ant
+13"]
+	010 -> 0100 [label=4 color=red]
+	01000 [label="Prot
+17"]
+	0100 -> 01000 [label=4 color=black]
+	010000 [label="Ant
+21
+Wynik:0"]
+	01000 -> 010000 [label=4 color=red]
+	010001 [label="Ant
+22
+Wynik:1"]
+	01000 -> 010001 [label=5 color=black]
+	010002 [label="Ant
+23
+Wynik:1"]
+	01000 -> 010002 [label=6 color=black]
+	01001 [label="Prot
+18"]
+	0100 -> 01001 [label=5 color=black]
+	010010 [label="Ant
+22
+Wynik:1"]
+	01001 -> 010010 [label=4 color=red]
+	010011 [label="Ant
+23
+Wynik:1"]
+	01001 -> 010011 [label=5 color=black]
+	010012 [label="Ant
+24
+Wynik:1"]
+	01001 -> 010012 [label=6 color=black]
+	01002 [label="Prot
+19"]
+	0100 -> 01002 [label=6 color=red]
+	010020 [label="Ant
+23
+Wynik:1"]
+	01002 -> 010020 [label=4 color=red]
+	010021 [label="Ant
+24
+Wynik:1"]
+	01002 -> 010021 [label=5 color=black]
+	010022 [label="Ant
+25
+Wynik:1"]
+	01002 -> 010022 [label=6 color=black]
+	0101 [label="Ant
+14"]
+	010 -> 0101 [label=5 color=black]
+	01010 [label="Prot
+18"]
+	0101 -> 01010 [label=4 color=black]
+	010100 [label="Ant
+22
+Wynik:1"]
+	01010 -> 010100 [label=4 color=red]
+	010101 [label="Ant
+23
+Wynik:1"]
+	01010 -> 010101 [label=5 color=black]
+	010102 [label="Ant
+24
+Wynik:1"]
+	01010 -> 010102 [label=6 color=black]
+	01011 [label="Prot
+19"]
+	0101 -> 01011 [label=5 color=black]
+	010110 [label="Ant
+23
+Wynik:1"]
+	01011 -> 010110 [label=4 color=red]
+	010111 [label="Ant
+24
+Wynik:1"]
+	01011 -> 010111 [label=5 color=black]
+	010112 [label="Ant
+25
+Wynik:1"]
+	01011 -> 010112 [label=6 color=black]
+	01012 [label="Prot
+20"]
+	0101 -> 01012 [label=6 color=red]
+	010120 [label="Ant
+24
+Wynik:1"]
+	01012 -> 010120 [label=4 color=red]
+	010121 [label="Ant
+25
+Wynik:1"]
+	01012 -> 010121 [label=5 color=black]
+	010122 [label="Ant
+26
+Wynik:1"]
+	01012 -> 010122 [label=6 color=black]
+	0102 [label="Ant
+15"]
+	010 -> 0102 [label=6 color=black]
+	01020 [label="Prot
+19"]
+	0102 -> 01020 [label=4 color=black]
+	010200 [label="Ant
+23
+Wynik:1"]
+	01020 -> 010200 [label=4 color=red]
+	010201 [label="Ant
+24
+Wynik:1"]
+	01020 -> 010201 [label=5 color=black]
+	010202 [label="Ant
+25
+Wynik:1"]
+	01020 -> 010202 [label=6 color=black]
+	01021 [label="Prot
+20"]
+	0102 -> 01021 [label=5 color=black]
+	010210 [label="Ant
+24
+Wynik:1"]
+	01021 -> 010210 [label=4 color=red]
+	010211 [label="Ant
+25
+Wynik:1"]
+	01021 -> 010211 [label=5 color=black]
+	010212 [label="Ant
+26
+Wynik:1"]
+	01021 -> 010212 [label=6 color=black]
+	01022 [label="Prot
+21
+Wynik:0"]
+	0102 -> 01022 [label=6 color=red]
+	011 [label="Prot
+10"]
+	01 -> 011 [label=5 color=black]
+	0110 [label="Ant
+14"]
+	011 -> 0110 [label=4 color=red]
+	01100 [label="Prot
+18"]
+	0110 -> 01100 [label=4 color=black]
+	011000 [label="Ant
+22
+Wynik:1"]
+	01100 -> 011000 [label=4 color=red]
+	011001 [label="Ant
+23
+Wynik:1"]
+	01100 -> 011001 [label=5 color=black]
+	011002 [label="Ant
+24
+Wynik:1"]
+	01100 -> 011002 [label=6 color=black]
+	01101 [label="Prot
+19"]
+	0110 -> 01101 [label=5 color=black]
+	011010 [label="Ant
+23
+Wynik:1"]
+	01101 -> 011010 [label=4 color=red]
+	011011 [label="Ant
+24
+Wynik:1"]
+	01101 -> 011011 [label=5 color=black]
+	011012 [label="Ant
+25
+Wynik:1"]
+	01101 -> 011012 [label=6 color=black]
+	01102 [label="Prot
+20"]
+	0110 -> 01102 [label=6 color=red]
+	011020 [label="Ant
+24
+Wynik:1"]
+	01102 -> 011020 [label=4 color=red]
+	011021 [label="Ant
+25
+Wynik:1"]
+	01102 -> 011021 [label=5 color=black]
+	011022 [label="Ant
+26
+Wynik:1"]
+	01102 -> 011022 [label=6 color=black]
+	0111 [label="Ant
+15"]
+	011 -> 0111 [label=5 color=black]
+	01110 [label="Prot
+19"]
+	0111 -> 01110 [label=4 color=black]
+	011100 [label="Ant
+23
+Wynik:1"]
+	01110 -> 011100 [label=4 color=red]
+	011101 [label="Ant
+24
+Wynik:1"]
+	01110 -> 011101 [label=5 color=black]
+	011102 [label="Ant
+25
+Wynik:1"]
+	01110 -> 011102 [label=6 color=black]
+	01111 [label="Prot
+20"]
+	0111 -> 01111 [label=5 color=black]
+	011110 [label="Ant
+24
+Wynik:1"]
+	01111 -> 011110 [label=4 color=red]
+	011111 [label="Ant
+25
+Wynik:1"]
+	01111 -> 011111 [label=5 color=black]
+	011112 [label="Ant
+26
+Wynik:1"]
+	01111 -> 011112 [label=6 color=black]
+	01112 [label="Prot
+21
+Wynik:0"]
+	0111 -> 01112 [label=6 color=red]
+	0112 [label="Ant
+16"]
+	011 -> 0112 [label=6 color=black]
+	01120 [label="Prot
+20"]
+	0112 -> 01120 [label=4 color=black]
+	011200 [label="Ant
+24
+Wynik:1"]
+	01120 -> 011200 [label=4 color=red]
+	011201 [label="Ant
+25
+Wynik:1"]
+	01120 -> 011201 [label=5 color=black]
+	011202 [label="Ant
+26
+Wynik:1"]
+	01120 -> 011202 [label=6 color=black]
+	01121 [label="Prot
+21
+Wynik:0"]
+	0112 -> 01121 [label=5 color=black]
+	01122 [label="Prot
+22
+Wynik:-1"]
+	0112 -> 01122 [label=6 color=red]
+	012 [label="Prot
+11"]
+	01 -> 012 [label=6 color=red]
+	0120 [label="Ant
+15"]
+	012 -> 0120 [label=4 color=red]
+	01200 [label="Prot
+19"]
+	0120 -> 01200 [label=4 color=black]
+	012000 [label="Ant
+23
+Wynik:1"]
+	01200 -> 012000 [label=4 color=red]
+	012001 [label="Ant
+24
+Wynik:1"]
+	01200 -> 012001 [label=5 color=black]
+	012002 [label="Ant
+25
+Wynik:1"]
+	01200 -> 012002 [label=6 color=black]
+	01201 [label="Prot
+20"]
+	0120 -> 01201 [label=5 color=black]
+	012010 [label="Ant
+24
+Wynik:1"]
+	01201 -> 012010 [label=4 color=red]
+	012011 [label="Ant
+25
+Wynik:1"]
+	01201 -> 012011 [label=5 color=black]
+	012012 [label="Ant
+26
+Wynik:1"]
+	01201 -> 012012 [label=6 color=black]
+	01202 [label="Prot
+21
+Wynik:0"]
+	0120 -> 01202 [label=6 color=red]
+	0121 [label="Ant
+16"]
+	012 -> 0121 [label=5 color=black]
+	01210 [label="Prot
+20"]
+	0121 -> 01210 [label=4 color=black]
+	012100 [label="Ant
+24
+Wynik:1"]
+	01210 -> 012100 [label=4 color=red]
+	012101 [label="Ant
+25
+Wynik:1"]
+	01210 -> 012101 [label=5 color=black]
+	012102 [label="Ant
+26
+Wynik:1"]
+	01210 -> 012102 [label=6 color=black]
+	01211 [label="Prot
+21
+Wynik:0"]
+	0121 -> 01211 [label=5 color=black]
+	01212 [label="Prot
+22
+Wynik:-1"]
+	0121 -> 01212 [label=6 color=red]
+	0122 [label="Ant
+17"]
+	012 -> 0122 [label=6 color=black]
+	01220 [label="Prot
+21
+Wynik:0"]
+	0122 -> 01220 [label=4 color=black]
+	01221 [label="Prot
+22
+Wynik:-1"]
+	0122 -> 01221 [label=5 color=black]
+	01222 [label="Prot
+23
+Wynik:-1"]
+	0122 -> 01222 [label=6 color=red]
+	02 [label="Ant
+6"]
+	0 -> 02 [label=6 color=black]
+	020 [label="Prot
+10"]
+	02 -> 020 [label=4 color=black]
+	0200 [label="Ant
+14"]
+	020 -> 0200 [label=4 color=red]
+	02000 [label="Prot
+18"]
+	0200 -> 02000 [label=4 color=black]
+	020000 [label="Ant
+22
+Wynik:1"]
+	02000 -> 020000 [label=4 color=red]
+	020001 [label="Ant
+23
+Wynik:1"]
+	02000 -> 020001 [label=5 color=black]
+	020002 [label="Ant
+24
+Wynik:1"]
+	02000 -> 020002 [label=6 color=black]
+	02001 [label="Prot
+19"]
+	0200 -> 02001 [label=5 color=black]
+	020010 [label="Ant
+23
+Wynik:1"]
+	02001 -> 020010 [label=4 color=red]
+	020011 [label="Ant
+24
+Wynik:1"]
+	02001 -> 020011 [label=5 color=black]
+	020012 [label="Ant
+25
+Wynik:1"]
+	02001 -> 020012 [label=6 color=black]
+	02002 [label="Prot
+20"]
+	0200 -> 02002 [label=6 color=red]
+	020020 [label="Ant
+24
+Wynik:1"]
+	02002 -> 020020 [label=4 color=red]
+	020021 [label="Ant
+25
+Wynik:1"]
+	02002 -> 020021 [label=5 color=black]
+	020022 [label="Ant
+26
+Wynik:1"]
+	02002 -> 020022 [label=6 color=black]
+	0201 [label="Ant
+15"]
+	020 -> 0201 [label=5 color=black]
+	02010 [label="Prot
+19"]
+	0201 -> 02010 [label=4 color=black]
+	020100 [label="Ant
+23
+Wynik:1"]
+	02010 -> 020100 [label=4 color=red]
+	020101 [label="Ant
+24
+Wynik:1"]
+	02010 -> 020101 [label=5 color=black]
+	020102 [label="Ant
+25
+Wynik:1"]
+	02010 -> 020102 [label=6 color=black]
+	02011 [label="Prot
+20"]
+	0201 -> 02011 [label=5 color=black]
+	020110 [label="Ant
+24
+Wynik:1"]
+	02011 -> 020110 [label=4 color=red]
+	020111 [label="Ant
+25
+Wynik:1"]
+	02011 -> 020111 [label=5 color=black]
+	020112 [label="Ant
+26
+Wynik:1"]
+	02011 -> 020112 [label=6 color=black]
+	02012 [label="Prot
+21
+Wynik:0"]
+	0201 -> 02012 [label=6 color=red]
+	0202 [label="Ant
+16"]
+	020 -> 0202 [label=6 color=black]
+	02020 [label="Prot
+20"]
+	0202 -> 02020 [label=4 color=black]
+	020200 [label="Ant
+24
+Wynik:1"]
+	02020 -> 020200 [label=4 color=red]
+	020201 [label="Ant
+25
+Wynik:1"]
+	02020 -> 020201 [label=5 color=black]
+	020202 [label="Ant
+26
+Wynik:1"]
+	02020 -> 020202 [label=6 color=black]
+	02021 [label="Prot
+21
+Wynik:0"]
+	0202 -> 02021 [label=5 color=black]
+	02022 [label="Prot
+22
+Wynik:-1"]
+	0202 -> 02022 [label=6 color=red]
+	021 [label="Prot
+11"]
+	02 -> 021 [label=5 color=black]
+	0210 [label="Ant
+15"]
+	021 -> 0210 [label=4 color=red]
+	02100 [label="Prot
+19"]
+	0210 -> 02100 [label=4 color=black]
+	021000 [label="Ant
+23
+Wynik:1"]
+	02100 -> 021000 [label=4 color=red]
+	021001 [label="Ant
+24
+Wynik:1"]
+	02100 -> 021001 [label=5 color=black]
+	021002 [label="Ant
+25
+Wynik:1"]
+	02100 -> 021002 [label=6 color=black]
+	02101 [label="Prot
+20"]
+	0210 -> 02101 [label=5 color=black]
+	021010 [label="Ant
+24
+Wynik:1"]
+	02101 -> 021010 [label=4 color=red]
+	021011 [label="Ant
+25
+Wynik:1"]
+	02101 -> 021011 [label=5 color=black]
+	021012 [label="Ant
+26
+Wynik:1"]
+	02101 -> 021012 [label=6 color=black]
+	02102 [label="Prot
+21
+Wynik:0"]
+	0210 -> 02102 [label=6 color=red]
+	0211 [label="Ant
+16"]
+	021 -> 0211 [label=5 color=black]
+	02110 [label="Prot
+20"]
+	0211 -> 02110 [label=4 color=black]
+	021100 [label="Ant
+24
+Wynik:1"]
+	02110 -> 021100 [label=4 color=red]
+	021101 [label="Ant
+25
+Wynik:1"]
+	02110 -> 021101 [label=5 color=black]
+	021102 [label="Ant
+26
+Wynik:1"]
+	02110 -> 021102 [label=6 color=black]
+	02111 [label="Prot
+21
+Wynik:0"]
+	0211 -> 02111 [label=5 color=black]
+	02112 [label="Prot
+22
+Wynik:-1"]
+	0211 -> 02112 [label=6 color=red]
+	0212 [label="Ant
+17"]
+	021 -> 0212 [label=6 color=black]
+	02120 [label="Prot
+21
+Wynik:0"]
+	0212 -> 02120 [label=4 color=black]
+	02121 [label="Prot
+22
+Wynik:-1"]
+	0212 -> 02121 [label=5 color=black]
+	02122 [label="Prot
+23
+Wynik:-1"]
+	0212 -> 02122 [label=6 color=red]
+	022 [label="Prot
+12"]
+	02 -> 022 [label=6 color=red]
+	0220 [label="Ant
+16"]
+	022 -> 0220 [label=4 color=red]
+	02200 [label="Prot
+20"]
+	0220 -> 02200 [label=4 color=black]
+	022000 [label="Ant
+24
+Wynik:1"]
+	02200 -> 022000 [label=4 color=red]
+	022001 [label="Ant
+25
+Wynik:1"]
+	02200 -> 022001 [label=5 color=black]
+	022002 [label="Ant
+26
+Wynik:1"]
+	02200 -> 022002 [label=6 color=black]
+	02201 [label="Prot
+21
+Wynik:0"]
+	0220 -> 02201 [label=5 color=black]
+	02202 [label="Prot
+22
+Wynik:-1"]
+	0220 -> 02202 [label=6 color=red]
+	0221 [label="Ant
+17"]
+	022 -> 0221 [label=5 color=black]
+	02210 [label="Prot
+21
+Wynik:0"]
+	0221 -> 02210 [label=4 color=black]
+	02211 [label="Prot
+22
+Wynik:-1"]
+	0221 -> 02211 [label=5 color=black]
+	02212 [label="Prot
+23
+Wynik:-1"]
+	0221 -> 02212 [label=6 color=red]
+	0222 [label="Ant
+18"]
+	022 -> 0222 [label=6 color=black]
+	02220 [label="Prot
+22
+Wynik:-1"]
+	0222 -> 02220 [label=4 color=black]
+	02221 [label="Prot
+23
+Wynik:-1"]
+	0222 -> 02221 [label=5 color=black]
+	02222 [label="Prot
+24
+Wynik:-1"]
+	0222 -> 02222 [label=6 color=red]
+}

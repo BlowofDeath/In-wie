@@ -1,0 +1,82 @@
+digraph G {
+	0 [label="Prot
+0"]
+	00 [label="Ant
+4"]
+	0 -> 00
+	000 [label="Prot
+8"]
+	00 -> 000
+	0000 [label="Ant
+12
+Wynik:1"]
+	000 -> 0000
+	0001 [label="Ant
+13
+Wynik:1"]
+	000 -> 0001
+	0002 [label="Ant
+14
+Wynik:1"]
+	000 -> 0002
+	001 [label="Prot
+9"]
+	00 -> 001
+	0010 [label="Ant
+13
+Wynik:1"]
+	001 -> 0010
+	0011 [label="Ant
+14
+Wynik:1"]
+	001 -> 0011
+	0012 [label="Ant
+15
+Wynik:1"]
+	001 -> 0012
+	002 [label="Prot
+10
+Wynik:0"]
+	00 -> 002
+	01 [label="Ant
+5"]
+	0 -> 01
+	010 [label="Prot
+9"]
+	01 -> 010
+	0100 [label="Ant
+13
+Wynik:1"]
+	010 -> 0100
+	0101 [label="Ant
+14
+Wynik:1"]
+	010 -> 0101
+	0102 [label="Ant
+15
+Wynik:1"]
+	010 -> 0102
+	011 [label="Prot
+10
+Wynik:0"]
+	01 -> 011
+	012 [label="Prot
+11
+Wynik:-1"]
+	01 -> 012
+	02 [label="Ant
+6"]
+	0 -> 02
+	020 [label="Prot
+10
+Wynik:0"]
+	02 -> 020
+	021 [label="Prot
+11
+Wynik:-1"]
+	02 -> 021
+	022 [label="Prot
+12
+Wynik:-1"]
+	02 -> 022
+}
